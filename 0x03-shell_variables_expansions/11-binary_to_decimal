@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%d\n' $BINARY
+obase=10; ibase=2; $BINARY | bc
